@@ -1,0 +1,7 @@
+Feature: Is the asdf question answered?
+  Everyone wants to know if his questions are already answered.
+
+  Scenario: Answered questions
+    Given a question was mentioned by an user
+    When every question is answered, the asdf question is too.
+    Then I should have an answer for the asdf question
